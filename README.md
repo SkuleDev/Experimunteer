@@ -4,7 +4,8 @@
 1. Clone this repo
 2. run `npm install`
 3. run `gulp compile`
-4. navigate to `localhost:3000`
+4. run `npm start`
+5. navigate to `localhost:3000`
 
 ### Making Changes ###
 * If you wish to make changes, please keep them contained to the `views/` and `src/` folders.
