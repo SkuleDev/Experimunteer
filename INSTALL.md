@@ -15,4 +15,6 @@ I'll probably be writing an installation script soon enough.
 6. Run the experimunteer application (See README.md for further information on running)
 `gulp default`
 7. Use a web browser to navigate to the address given by the previous command (Usually, this will be `http://localhost:3000`)
-8. Have fun, and good luck!
+8. If you're going to be making changes, please create a new branch before doing anything
+`git checkout -b "yourName/NewBranchName"`
+9. Have fun, and good luck!
