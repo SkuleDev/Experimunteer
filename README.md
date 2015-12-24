@@ -7,6 +7,11 @@
 4. run `npm start`
 5. navigate to `localhost:3000`
 
+### Current Routes ###
+* `/` - Main index page, containing a search bar and select experiments
+* `/experiment` - Redirects the user back. Could be a general "all experiments page"
+* `/experiment/<id>` - Page for a given experiment, containing all details
+
 ### Making Changes ###
 * If you wish to make changes, please keep them contained to the `views/` and `src/` folders.
 

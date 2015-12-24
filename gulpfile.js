@@ -37,7 +37,6 @@ gulp.task('jsx', function() {
             .pipe(buffer())
             .pipe(gulp.dest(outputPaths.js));
     });
-    console.log("Transformed JSX");
 });
 
 gulp.task('jsx:watch', function() {
