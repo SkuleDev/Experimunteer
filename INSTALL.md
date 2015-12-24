@@ -12,9 +12,11 @@ I'll probably be writing an installation script soon enough.
 `mkdir ~/Experimunteer && git clone https://github.com/SkuleDev/Experimunteer.git ~/Experimunteer`
 6. Install and compile the experimunteer application (This make take a little while)<br>
 `cd ~/Experimunteer && npm install && gulp compile`
-7. Run the experimunteer application (See README.md for further information on running)<br>
+7. install gulp globally
+`npm install -g gulp`
+8. Run the experimunteer application (See README.md for further information on running)<br>
 `gulp default`
-8. Use a web browser to navigate to the address given by the previous command (Usually, this will be `http://localhost:3000`)
-9. If you're going to be making changes, please create a new branch before doing anything<br>
+9. Use a web browser to navigate to the address given by the previous command (Usually, this will be `http://localhost:3000`)
+10. If you're going to be making changes, please create a new branch before doing anything<br>
 `git checkout -b "yourName/NewBranchName"`
-10. Have fun, and good luck!
+11. Have fun, and good luck!
