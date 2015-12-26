@@ -7,7 +7,7 @@ var jsx = require("gulp-jsx");
 var globby = require("globby");
 
 var inputPaths = {
-    css: ["./src/scss/*.scss"],
+    css: ["./src/scss/**/*.scss"],
     jsx: ["./src/js/react/*.jsx"]
 };
 
