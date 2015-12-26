@@ -1,58 +1,49 @@
 /*
-	Telephasic by HTML5 UP
+	Future Imperfect by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-/* Basic */
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form select,
-form textarea {
-  position: relative;
-  -ms-behavior: url("assets/js/ie/PIE.htc"); }
-
-input[type="button"],
+/* Button */
 input[type="submit"],
 input[type="reset"],
+input[type="button"],
 button,
 .button {
-  position: relative;
-  -ms-behavior: url("assets/js/ie/PIE.htc"); }
+  border: solid 1px #dedede; }
 
-/* Promo */
-#promo {
-  position: relative;
-  -ms-behavior: url("assets/js/ie/PIE.htc"); }
+/* Form */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  border: solid 1px #dedede; }
 
-/* Section/Article */
-section > .last-child,
-article > .last-child,
-section.last-child,
-article.last-child {
-  margin-bottom: 0; }
+/* Post */
+.post {
+  border: solid 1px #dedede; }
+  .post > header {
+    border-bottom: solid 1px #dedede; }
 
-/* Wrappers */
-#promo-wrapper {
-  background: url("../../images/promo.jpg");
-  background-size: cover;
-  -ms-behavior: url("assets/js/ie/backgroundsize.min.htc"); }
+/* Mini Post */
+.mini-post {
+  border: solid 1px #dedede; }
 
 /* Header */
-#logo a {
-  position: relative;
-  -ms-behavior: url("assets/js/ie/PIE.htc"); }
+#header {
+  border-bottom: solid 1px #dedede; }
+  #header .links {
+    border-left: solid 1px #dedede; }
+  #header .main ul li {
+    border-left: solid 1px #dedede; }
 
-/* Nav */
-#nav > ul > li > span, #nav > ul > li > a {
-  position: relative;
-  -ms-behavior: url("assets/js/ie/PIE.htc"); }
+/* Sidebar */
+#sidebar > * {
+  border-top: solid 1px #dedede; }
 
-.dropotron {
-  position: relative;
-  box-shadow: none !important;
-  -ms-behavior: url("assets/js/ie/PIE.htc"); }
-  .dropotron.level-0 {
-    box-shadow: none !important; }
-    .dropotron.level-0:before {
-      display: none; }
+/* Menu */
+#menu {
+  border-left: solid 1px #dedede; }
+  #menu > * {
+    border-top: solid 1px #dedede; }

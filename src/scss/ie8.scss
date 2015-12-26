@@ -1,91 +1,85 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
+@import 'libs/skel';
 
 /*
-	Telephasic by HTML5 UP
+	Future Imperfect by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+$palette-border: #dedede;
 
-	form {
-		input[type="text"],
-		input[type="email"],
-		input[type="password"],
-		select,
-		textarea {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 1px $palette-border;
+	}
+
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		border: solid 1px $palette-border;
+	}
+
+/* Post */
+
+	.post {
+		border: solid 1px $palette-border;
+
+		> header {
+			border-bottom: solid 1px $palette-border;
 		}
 	}
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
+/* Mini Post */
 
-/* Promo */
-
-	#promo {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
-
-/* Section/Article */
-
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
-/* Wrappers */
-
-	#promo-wrapper {
-		background: url('../../images/promo.jpg');
-		background-size: cover;
-		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+	.mini-post {
+		border: solid 1px $palette-border;
 	}
 
 /* Header */
 
-	#logo {
-		a {
-			position: relative;
-			-ms-behavior: url('assets/js/ie/PIE.htc');
+	#header {
+		border-bottom: solid 1px $palette-border;
+
+		.links {
+			border-left: solid 1px $palette-border;
 		}
-	}
 
-/* Nav */
-
-	#nav {
-		> ul {
-			> li > {
-				span, a {
-					position: relative;
-					-ms-behavior: url('assets/js/ie/PIE.htc');
+		.main {
+			ul {
+				li {
+					border-left: solid 1px $palette-border;
 				}
 			}
 		}
 	}
 
-	.dropotron {
-		position: relative;
-		box-shadow: none !important;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
+/* Sidebar */
 
-		&.level-0 {
-			box-shadow: none !important;
+	#sidebar {
+		> * {
+			border-top: solid 1px $palette-border;
+		}
+	}
 
-			&:before {
-				display: none;
-			}
+/* Menu */
+
+	#menu {
+		border-left: solid 1px $palette-border;
+
+		> * {
+			border-top: solid 1px $palette-border;
 		}
 	}
